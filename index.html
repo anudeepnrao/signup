@@ -5,32 +5,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Beta sign up split layout Challenge</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway&display=swap" rel="stylesheet">
+  <title>ANR Labs | Beta sign up</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+	.left{float:left;width:40%;background-image: linear-gradient(-135deg, hsl(240, 87%, 12%),hsl(240, 86%, 60%));margin:0;height:600px;}
+	.right{float:right;width:60%;height:auto;margin:0 0em;text-align:center;}
+	.heading{color: hsl(243, 87%, 12%);font-family:'Raleway',sans-serif;}
+	body{margin:0 0;}
+	#i1{width:80%;}
   </style>
 </head>
 <body>
-  All your files in one secure location, accessible anywhere.
+<div style="margin:0;height:611px;">
+<div class="left">
+<img src="images/illustration-main.svg" id="i1">
+</div>
+<div class="right"> 
+<h2 class="heading"> All your files in one secure location, accessible anywhere.</h2>
 
-  Fylo stores all your most important files in one secure location. 
+ <p> Fylo stores all your most important files in one secure location. 
   Access them wherever you need, share and collaborate with friends, 
-  family and co-workers.
+  family and co-workers.</p>
 
-  Sign up for early access
+  <h5>Sign up for early access</h5>
+   <form>
+   <input type="text">
+   <input type="submit" value="Sign Up">
+   </form>
+  
 
-  Sign Up
-
-  Privacy Policy
-
-  <footer>
+  <p>Privacy Policy</p>
+</div>
+</div>
+  <div style="margin:0;">
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
     </p>
-  </footer>
+  </div>
 </body>
 </html>
